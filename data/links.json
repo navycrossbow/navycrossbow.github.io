@@ -1,0 +1,53 @@
+{
+    "links": [
+        {
+            "cat": "google",
+            "text": "Google Messages",
+            "icon": "svgGmail",
+            "link": "https://messages.google.com/"
+        },
+        {
+            "cat": "google",
+            "text": "Gmail",
+            "icon": "svgGmail",
+            "link": "https://mail.google.com/mail/u/0/"
+        },
+        {
+            "cat": "google",
+            "text": "Google Calendar",
+            "icon": "svgCal",
+            "link": "https://calendar.google.com/calendar/r?pli=1"
+        },
+        {
+            "cat": "google",
+            "text": "Google Hangouts",
+            "icon": "svgHangouts",
+            "link": "https://hangouts.google.com/"
+        },
+        {
+            "cat": "google",
+            "text": "Google Photos",
+            "icon": "svgPhotos",
+            "link": "https://photos.google.com/"
+        },
+        {
+            "cat": "tools",
+            "text": "Kindle",
+            "icon": "svgKindle",
+            "link": "https://read.amazon.com/"
+        },
+        {
+            "cat": "google",
+            "text": "Google Drive",
+            "icon": "svgDrive",
+            "link": "https://drive.google.com/"
+        },
+        {
+            "cat": "google",
+            "text": "Google Keep",
+            "icon": "svgKeep",
+            "link": "https://keep.google.com/"
+        }
+
+    ]
+}
