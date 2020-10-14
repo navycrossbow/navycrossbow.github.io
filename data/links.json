@@ -3,31 +3,31 @@
         {
             "cat": "google",
             "text": "Google Messages",
-            "icon": "svgGmail",
+            "icon": "img/Google_Messages.svg",
             "link": "https://messages.google.com/"
         },
         {
             "cat": "google",
             "text": "Gmail",
-            "icon": "svgGmail",
+            "icon": "img/Google_Gmail.svg",
             "link": "https://mail.google.com/mail/u/0/"
         },
         {
             "cat": "google",
             "text": "Google Calendar",
-            "icon": "svgCal",
+            "icon": "img/Google_Calendar.svg",
             "link": "https://calendar.google.com/calendar/r?pli=1"
         },
         {
             "cat": "google",
             "text": "Google Hangouts",
-            "icon": "svgHangouts",
+            "icon": "",
             "link": "https://hangouts.google.com/"
         },
         {
             "cat": "google",
             "text": "Google Photos",
-            "icon": "svgPhotos",
+            "icon": "img/Google_Photos.svg",
             "link": "https://photos.google.com/"
         },
         {
@@ -39,13 +39,13 @@
         {
             "cat": "google",
             "text": "Google Drive",
-            "icon": "svgDrive",
+            "icon": "img/Google_Drive.svg",
             "link": "https://drive.google.com/"
         },
         {
             "cat": "google",
             "text": "Google Keep",
-            "icon": "svgKeep",
+            "icon": "img/Google_Keep.svg",
             "link": "https://keep.google.com/"
         }
 
