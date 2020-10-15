@@ -49,6 +49,12 @@
             "link": "https://keep.google.com/"
         },
         {
+            "cat": "google",
+            "text": "YouTube",
+            "icon": "img/Google_YouTube.svg",
+            "link": "https://www.youtube.com/"
+        },
+        {
             "cat": "social",
             "text": "Reddit",
             "icon": "img/Reddit.svg",
