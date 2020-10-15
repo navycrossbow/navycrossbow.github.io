@@ -47,7 +47,22 @@
             "text": "Keep",
             "icon": "img/Google_Keep.svg",
             "link": "https://keep.google.com/"
+        },
+        {
+            "cat": "social",
+            "text": "Reddit",
+            "icon": "img/Reddit.svg",
+            "link": "https://reddit.com/"
+        },
+        {
+            "cat": "social",
+            "text": "Twitter",
+            "icon": "img/Twitter.svg",
+            "link": "https://twitter.com/"
         }
+
+
+
 
     ]
 }
