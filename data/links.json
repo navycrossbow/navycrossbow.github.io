@@ -21,7 +21,7 @@
         {
             "cat": "google",
             "text": "Google Hangouts",
-            "icon": "",
+            "icon": "img/Google_Hangouts.svg",
             "link": "https://hangouts.google.com/"
         },
         {
@@ -31,10 +31,10 @@
             "link": "https://photos.google.com/"
         },
         {
-            "cat": "tools",
-            "text": "Kindle",
-            "icon": "svgKindle",
-            "link": "https://read.amazon.com/"
+            "cat": "dev",
+            "text": "Github",
+            "icon": "img/Github.svg",
+            "link": "https://github.com/"
         },
         {
             "cat": "google",
