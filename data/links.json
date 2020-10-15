@@ -2,7 +2,7 @@
     "links": [
         {
             "cat": "google",
-            "text": "Google Messages",
+            "text": "Messages",
             "icon": "img/Google_Messages.svg",
             "link": "https://messages.google.com/"
         },
@@ -14,13 +14,13 @@
         },
         {
             "cat": "google",
-            "text": "Google Calendar",
+            "text": "Calendar",
             "icon": "img/Google_Calendar.svg",
             "link": "https://calendar.google.com/calendar/r?pli=1"
         },
         {
             "cat": "google",
-            "text": "Google Hangouts",
+            "text": "Hangouts",
             "icon": "img/Google_Hangouts.svg",
             "link": "https://hangouts.google.com/"
         },
@@ -38,13 +38,13 @@
         },
         {
             "cat": "google",
-            "text": "Google Drive",
+            "text": "Drive",
             "icon": "img/Google_Drive.svg",
             "link": "https://drive.google.com/"
         },
         {
             "cat": "google",
-            "text": "Google Keep",
+            "text": "Keep",
             "icon": "img/Google_Keep.svg",
             "link": "https://keep.google.com/"
         }
