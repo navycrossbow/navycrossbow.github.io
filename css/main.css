@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
 html {
-    font-family: 'consolas', sans-serif;
+    font-family: 'Ubuntu', 'comicsans', sans-serif;
 }
 
 body {
