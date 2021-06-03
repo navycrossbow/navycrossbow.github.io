@@ -90,7 +90,13 @@
             "icon": "img/ms_compliance.svg",
             "link": "https://protection.office.com/homepage"
         }        
-
+        ,
+        {
+            "cat": "microsoft",
+            "text": "Sentinel",
+            "icon": "img/ms_Sentinel.svg",
+            "link": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/MainMenuBlade/0/subscriptionId/e472542b-3ba3-461b-9754-99ea000ff7df/resourceGroup/DPC_Sentinel_Prod_RG/workspaceName/DPCAzureSentinel"
+        }    
 
     ]
 }
