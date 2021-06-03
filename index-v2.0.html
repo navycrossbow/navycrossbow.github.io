@@ -109,7 +109,7 @@
                 <div class="{{color}} text-center">{{name}}</div>
                     {{#records}}
                         <a href="{{link}}" target="_blank" class="btn bg-transparent btn-block text-left" style="color:#fff;">
-                        <img src="{{{icon}}}" height="20" width="20" class="float-left" style="margin-right:10px;">
+                        <svg src="{{{icon}}}" class="float-left" style="margin-right:10px;" viewbox="0 0 20 20">
                         {{{text}}}
                     </a>
                 {{/records}}
@@ -127,7 +127,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
     <script>
-        linksjson = "https://navycrossbow.github.io/data/links.json"
+        linksjson = "https://navycrossbow.github.io/data/links.json?v" + Math.random()
 
         settings = null;
 
