@@ -66,8 +66,24 @@
             "icon": "img/Twitter.svg",
             "link": "https://twitter.com/"
         }
+        ,
+        {
+            "cat": "security",
+            "text": "OSINT Framework",
+            "icon": "img/Twitter.svg",
+            "link": "https://osintframework.com/"
+        }
 
 
+        ,
+        {
+            "cat": "microsoft",
+            "text": "Cloud App Security",
+            "icon": "img/Twitter.svg",
+            "link": "https://portal.cloudappsecurity.com"
+        }
+
+        
 
 
     ]
