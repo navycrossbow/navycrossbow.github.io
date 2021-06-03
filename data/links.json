@@ -83,7 +83,13 @@
             "link": "https://portal.cloudappsecurity.com"
         }
 
-        
+        ,
+        {
+            "cat": "microsoft",
+            "text": "Compliance",
+            "icon": "img/ms_compliance.svg",
+            "link": "https://protection.office.com/homepage"
+        }        
 
 
     ]
