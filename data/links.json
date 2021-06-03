@@ -97,6 +97,34 @@
             "icon": "img/ms_Sentinel.svg",
             "link": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/MainMenuBlade/0/subscriptionId/e472542b-3ba3-461b-9754-99ea000ff7df/resourceGroup/DPC_Sentinel_Prod_RG/workspaceName/DPCAzureSentinel"
         }    
+        ,
+        {
+            "cat": "microsoft",
+            "text": "OneDrive",
+            "icon": "img/ms_OneDrive.svg",
+            "link": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/MainMenuBlade/0/subscriptionId/e472542b-3ba3-461b-9754-99ea000ff7df/resourceGroup/DPC_Sentinel_Prod_RG/workspaceName/DPCAzureSentinel"
+        }    
+        ,
+        {
+            "cat": "microsoft",
+            "text": "OneNote",
+            "icon": "img/ms_OneNote.svg",
+            "link": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/MainMenuBlade/0/subscriptionId/e472542b-3ba3-461b-9754-99ea000ff7df/resourceGroup/DPC_Sentinel_Prod_RG/workspaceName/DPCAzureSentinel"
+        }    
+        ,
+        {
+            "cat": "microsoft",
+            "text": "Outlook",
+            "icon": "img/ms_Outlook.svg",
+            "link": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/MainMenuBlade/0/subscriptionId/e472542b-3ba3-461b-9754-99ea000ff7df/resourceGroup/DPC_Sentinel_Prod_RG/workspaceName/DPCAzureSentinel"
+        }    
+        ,
+        {
+            "cat": "microsoft",
+            "text": "Teams",
+            "icon": "img/ms_Teams.svg",
+            "link": "https://portal.azure.com/#blade/Microsoft_Azure_Security_Insights/MainMenuBlade/0/subscriptionId/e472542b-3ba3-461b-9754-99ea000ff7df/resourceGroup/DPC_Sentinel_Prod_RG/workspaceName/DPCAzureSentinel"
+        }    
 
     ]
 }
