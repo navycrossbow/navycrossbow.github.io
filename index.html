@@ -22,8 +22,8 @@
 				margin: 0px;
 				padding: 20px;
                 font-family: 'JetBrains Mono', 'Comic Sans', sans-serif !important;
-                font-size: 13pt !important;
-				background-color: #20262e;
+                font-size: 12pt !important;
+				background-color: #2e2e2e;
             }
              
             a:link { text-decoration: none; }
@@ -35,6 +35,9 @@
             .showborder {border:1px solid red;}
             #greeting {text-align:left  !important;  width:100%;}
             #date{text-align:left !important; width:100%;}
+
+
+
         </style>
 
 	</head>
@@ -43,13 +46,13 @@
 
 
         <div class="container fluid">
-            <div class="row fg-uif-silver">
+            <div class="row monokaiComments">
                 <div class="col-lg-4 col-sm-3">		
                    <div id="greeting"></div>
                    <span id="date" class="text-left"></span>
                 </div>
                 <div class="col-lg-8 col-sm-9">
-                    <div class="" id="clocks"></div> 
+                    <div class="transparentBorder" id="clocks"></div> 
                 </div>
             </div>
             <div class="row">
@@ -69,9 +72,9 @@
 		<script id="textLink" type="text/template">
                 <div class="col-sm-3 col-lg-3">
                     <!--<div class="fw-bold {{color}}">      {{name}}</div>-->
-                    <div class="list-group transparentBorder" style="margin-bottom:10px;">
+                    <div class="list-group transparentBorder" style="margin-bottom:10px; background-color:transparent !important;">
                         {{#records}}
-                            <a href="{{link}}" target="_blank" class="list-group-item transparentBorder list-group-item-action {{../color}}">
+                            <a href="{{link}}" target="_blank" class="list-group-item transparentBorder bg-transparent list-group-item-action {{../color}}">
                                 <i class="{{icon}}"></i>
                                 {{{text}}}
                             </a>
@@ -82,8 +85,8 @@
 
         <script id="clock" type="text/template">
             {{#records}}
-            <div class="col-sm-4 col-lg-2 float-lg-end float-sm-none    ">
-                <div class="card text-center bg-transparent  {{color}}">
+            <div class="col-sm-4 col-lg-2 float-lg-end float-sm-none transparentBorder">
+                <div class="card text-center bg-transparent  {{color}} transparentBorder">
                     <p class="card-text  text-center {{color}}"  style="margin-bottom:0px;"><i class="far fa-clock"></i> {{zone}}</p>
                     <h6 class="card-title  text-center {{color}}">{{time}}</h5>
                 </div>
@@ -111,8 +114,6 @@
                 ds.records.push({"time":moment().tz("Australia/Queensland").format(("HH:mm")), "zone":"Home", "color":"fg-uif-nephritis"});
                 ds.records.push({"time":moment().tz("UTC").format(("HH:mm")), "zone":"UTC", "color":""});
                 ds.records.push({"time":moment().tz("Asia/Shanghai").format(("HH:mm")), "zone":"China", "color":"fg-uif-alizarin"});
-                
-                
                 ds.records.push({"time":moment().tz("Europe/Moscow").format(("HH:mm")), "zone":"Moscow", "color":"fg-uif-alizarin"});
                 var template = $("#clock").html();
 				var stone = Handlebars.compile(template)(ds);
@@ -154,16 +155,20 @@
 
             $(function() { //document.ready
 				console.log("ready!");
-                runHandleBars(dataset, 'Google', 'fg-uif-alizarin', '#textLink', '#hbrepeater')
-                runHandleBars(dataset, 'Learning', 'fg-uif-nephritis', '#textLink', '#hbrepeater')
-				runHandleBars(dataset, 'Socials', 'fg-uif-orange', '#textLink', '#hbrepeater')
-				runHandleBars(dataset, 'Microsoft', 'fg-uif-peterriver', '#textLink', '#hbrepeater')
+                runHandleBars(dataset, 'Google', 'monokaiYellow', '#textLink', '#hbrepeater')
+                
+				
+				runHandleBars(dataset, 'Microsoft', 'monokaiPurple', '#textLink', '#hbrepeater')
 				//runHandleBars(dataset, 'Products', 'fg-uif-peterriver', '#textLink', '#hbrepeater')
 				//runHandleBars(dataset, 'Security', 'fg-uif-sunflower', '#textLink', '#hbrepeater')
-				runHandleBars(dataset, 'Hunting', 'fg-uif-emerald', '#textLink', '#hbrepeater')
-				runHandleBars(dataset, 'Work', 'fg-uif-amethyst', '#textLink', '#hbrepeater')
-				runHandleBars(dataset, 'News', 'fg-uif-sunflower', '#textLink', '#hbrepeater')
+				runHandleBars(dataset, 'Hunting', 'monokaiPink', '#textLink', '#hbrepeater')
+				
+				runHandleBars(dataset, 'News', 'monokaiBlue', '#textLink', '#hbrepeater')
                 //runHandleBars(dataset, 'Tools', 'fg-uif-nephritis', '#textLink', '#hbrepeater')
+
+                runHandleBars(dataset, 'Work', 'fg-uif-amethyst', '#textLink', '#hbrepeater')
+                runHandleBars(dataset, 'Learning', 'monokaiGreen', '#textLink', '#hbrepeater')
+                runHandleBars(dataset, 'Socials', 'monokaiOrange', '#textLink', '#hbrepeater')
                 
                 runclock();
                

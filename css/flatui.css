@@ -125,3 +125,24 @@
     .fg-uif-white {
     color: #ffffff !important;
   }
+
+
+
+
+
+  /*monokai*/
+  .monokaibg { background-color: #2e2e2e; }
+  .monokaiComments { color: #797979 !important; }
+  .monokaiWhite { color: #d6d6d6 !important; }
+  .monokaiYellow { color: #e5b567 !important; }
+  .monokaiGreen { color: #b4d273 !important; }
+  .monokaiOrange { color: #e87d3e !important; }
+  .monokaiPurple { color: #9e86c8 !important; }
+  .monokaiPink { color: #b05279 !important; }
+  .monokaiBlue { color: #6c99bb !important; }
+  .monokaiFrost1 { color:#8FBCBB !important; }
+  .monokaiFrost2 { color:#88C0D0 !important; }
+  .monokaiFrost3 { color:#81A1C1 !important; }
+  .monokaiFrost4 { color:#5E81AC !important; }
+
+

@@ -249,8 +249,14 @@ dataset = {
             "icon": "fas fa-chalkboard-teacher",
             "link": "https://app.pluralsight.com"
         }
-
-
+        ,
+        {
+            "cat": "learning",
+            "text": "Black Hills InfoSec",
+            "icon": "fas fa-chalkboard-teacher",
+            "link": "https://www.blackhillsinfosec.com/"
+        }
+        
 
         ,
         {
