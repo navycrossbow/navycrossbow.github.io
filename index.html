@@ -87,12 +87,13 @@
             {{#records}}
             <div class="  float-lg-end float-sm-none transparentBorder ">
                 <div class="card text-center bg-transparent {{color}} transparentBorder">
-                   | {{time}} {{{zone}}}
+                   {{time}} {{{zone}}} |
                     <!--
                     <p class="card-text text-center {{color}}"  style="margin-bottom:0px;"></p>
                     <h6 class="card-title text-center {{color}}"></h6>
                         -->
                 </div>
+                
                 
             </div>
             {{/records}}
@@ -113,7 +114,7 @@
                 var ds = {}
                 ds.records = [];
                 ds.records.push({"time":moment().tz("Australia/Queensland").format(("HH:mm")), "zone":"Home", "color":"fg-uif-nephritis"});
-                ds.records.push({"time":moment().tz("UTC").format(("HH:mm")), "zone":"&nbsp;UTC", "color":""});
+                ds.records.push({"time":moment().tz("UTC").format(("HH:mm")), "zone":"UTC", "color":""});
                 ds.records.push({"time":moment().tz("Asia/Shanghai").format(("HH:mm")), "zone":"China", "color":""});
                 ds.records.push({"time":moment().tz("Europe/Moscow").format(("HH:mm")), "zone":"Moscow", "color":""});
                 var template = $("#clock").html();
