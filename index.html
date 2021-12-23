@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>alt</title>
+		<title>home</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" -->
@@ -35,9 +35,7 @@
             .showborder {border:1px solid red;}
             #greeting {text-align:left  !important;  width:100%;}
             #date{text-align:left !important; width:100%;}
-
-
-
+            .showel {background-color: bisque !important;}
         </style>
 
 	</head>
@@ -46,15 +44,18 @@
 
 
         <div class="container fluid">
-            <div class="row monokaiComments" style="background-color: #363636;">
+            <div class="row  row-cols-2 monokaiComments" style="background-color: #363636;">
                 <div class="col-lg-4 col-sm-3">		
                    <div id="greeting"></div>
                    <span id="date" class="text-left"></span>
                 </div>
-                <div class="col-lg-8 col-sm-9">
+                <div class="col-lg-8 col-sm-9 monokaiComments">
                     <div class="transparentBorder" id="clocks"></div> 
                 </div>
             </div>
+
+
+            
             <div class="row">
                 <div id="hbrepeater" class="row"></div>
             </div>
@@ -72,23 +73,22 @@
 		<script id="textLink" type="text/template">
                 <div class="col-sm-3 col-lg-3">
                     <!--<div class="fw-bold {{color}}">      {{name}}</div>-->
-                    <div class="list-group transparentBorder" style="margin-bottom:10px; background-color:transparent !important;">
+                    <div class="list-group transparentBorder " style="margin-bottom:10px; background-color:transparent !important;">
                         {{#records}}
-                            <a href="{{link}}" target="_blank" class="list-group-item transparentBorder bg-transparent list-group-item-action {{../color}}">
+                            <a href="{{link}}" target="_blank" class="list-group-item transparentBorder bg-transparent list-group-item-action {{../color}} ">
                                 <i class="{{icon}}"></i>
-                                {{{text}}}
+                                {{{text}}} 
                             </a>
                         {{/records}}
                     </div>
                 </div>
         </script>
-
         <script id="clock" type="text/template">
             {{#records}}
-            <div class="col-sm-4 col-lg-2 float-lg-end float-sm-none transparentBorder">
-                <div class="card text-center bg-transparent  {{color}} transparentBorder">
-                    <p class="card-text  text-center {{color}}"  style="margin-bottom:0px;"><i class="far fa-clock"></i> {{zone}}</p>
-                    <h6 class="card-title  text-center {{color}}">{{time}}</h5>
+            <div class=" col-lg-2 float-lg-end float-sm-none transparentBorder ">
+                <div class="card text-center bg-transparent {{color}} transparentBorder">
+                    <p class="card-text text-center {{color}}"  style="margin-bottom:0px;"><i class="far fa-clock"></i> {{zone}}</p>
+                    <h6 class="card-title text-center {{color}}">{{time}}</h5>
                 </div>
                 
             </div>
@@ -97,7 +97,6 @@
 
 
 		<script>
-			
 			function runHandleBars (data, cat, color, templateId, anchorId) {
 				var ds = {};
 				ds.name = cat
@@ -107,23 +106,19 @@
 				var stone = Handlebars.compile(template)(ds);
 				$(anchorId).append(stone);
             }
-            
             function getTime() {
                 var ds = {}
                 ds.records = [];
                 ds.records.push({"time":moment().tz("Australia/Queensland").format(("HH:mm")), "zone":"Home", "color":"fg-uif-nephritis"});
                 ds.records.push({"time":moment().tz("UTC").format(("HH:mm")), "zone":"UTC", "color":""});
-                ds.records.push({"time":moment().tz("Asia/Shanghai").format(("HH:mm")), "zone":"China", "color":"fg-uif-alizarin"});
-                ds.records.push({"time":moment().tz("Europe/Moscow").format(("HH:mm")), "zone":"Moscow", "color":"fg-uif-alizarin"});
+                ds.records.push({"time":moment().tz("Asia/Shanghai").format(("HH:mm")), "zone":"China", "color":""});
+                ds.records.push({"time":moment().tz("Europe/Moscow").format(("HH:mm")), "zone":"Moscow", "color":""});
                 var template = $("#clock").html();
 				var stone = Handlebars.compile(template)(ds);
 				$("#clocks").empty().append(stone);
                 //console.log(moment.tz.names());
                 //console.log(moment.tz.countries());
-
             }
-            
-            
             function runclock() {
 				const date = moment().format("dddd, Do MMMM");
 				$('#date').text(date);
@@ -152,24 +147,18 @@
 				}
                 return msg;
 			}
-
             $(function() { //document.ready
-				console.log("ready!");
+				//console.log("ready!");
                 runHandleBars(dataset, 'Google', 'monokaiYellow', '#textLink', '#hbrepeater')
-                
-				
 				runHandleBars(dataset, 'Microsoft', 'monokaiPurple', '#textLink', '#hbrepeater')
 				//runHandleBars(dataset, 'Products', 'fg-uif-peterriver', '#textLink', '#hbrepeater')
 				//runHandleBars(dataset, 'Security', 'fg-uif-sunflower', '#textLink', '#hbrepeater')
 				runHandleBars(dataset, 'Hunting', 'monokaiPink', '#textLink', '#hbrepeater')
-				
 				runHandleBars(dataset, 'News', 'monokaiBlue', '#textLink', '#hbrepeater')
                 //runHandleBars(dataset, 'Tools', 'fg-uif-nephritis', '#textLink', '#hbrepeater')
-
                 runHandleBars(dataset, 'Work', 'fg-uif-amethyst', '#textLink', '#hbrepeater')
                 runHandleBars(dataset, 'Learning', 'monokaiGreen', '#textLink', '#hbrepeater')
                 runHandleBars(dataset, 'Socials', 'monokaiOrange', '#textLink', '#hbrepeater')
-                
                 runclock();
                
 			});
@@ -186,6 +175,9 @@
 	git add --all
 	git commit -m "version 0.3"
 	git push -u origin master
+
+    nasty powershell oneliner
+    git add --all; git commit -m "another dirty"; git push;
 
 	icons from fontawesome
 	https://fontawesome.com/icons
