@@ -45,11 +45,11 @@
 
         <div class="container fluid">
             <div class="row  row-cols-2 monokaiComments" style="background-color: #363636;">
-                <div class="col-lg-4 col-sm-3">		
-                   <div id="greeting"></div>
+                <div class="col-lg-5 col-sm-3">		
+                   <span id="greeting"></span>. 
                    <span id="date" class="text-left"></span>
                 </div>
-                <div class="col-lg-8 col-sm-9 monokaiComments">
+                <div class="col-lg-7 col-sm-9 monokaiComments">
                     <div class="transparentBorder" id="clocks"></div> 
                 </div>
             </div>
@@ -85,10 +85,13 @@
         </script>
         <script id="clock" type="text/template">
             {{#records}}
-            <div class=" col-lg-2 float-lg-end float-sm-none transparentBorder ">
+            <div class=" col-lg-3 float-lg-end float-sm-none transparentBorder ">
                 <div class="card text-center bg-transparent {{color}} transparentBorder">
-                    <p class="card-text text-center {{color}}"  style="margin-bottom:0px;"><i class="far fa-clock"></i> {{zone}}</p>
-                    <h6 class="card-title text-center {{color}}">{{time}}</h5>
+                   | {{time}} {{{zone}}}
+                    <!--
+                    <p class="card-text text-center {{color}}"  style="margin-bottom:0px;"></p>
+                    <h6 class="card-title text-center {{color}}"></h6>
+                        -->
                 </div>
                 
             </div>
@@ -110,7 +113,7 @@
                 var ds = {}
                 ds.records = [];
                 ds.records.push({"time":moment().tz("Australia/Queensland").format(("HH:mm")), "zone":"Home", "color":"fg-uif-nephritis"});
-                ds.records.push({"time":moment().tz("UTC").format(("HH:mm")), "zone":"UTC", "color":""});
+                ds.records.push({"time":moment().tz("UTC").format(("HH:mm")), "zone":"&nbsp;UTC", "color":""});
                 ds.records.push({"time":moment().tz("Asia/Shanghai").format(("HH:mm")), "zone":"China", "color":""});
                 ds.records.push({"time":moment().tz("Europe/Moscow").format(("HH:mm")), "zone":"Moscow", "color":""});
                 var template = $("#clock").html();
@@ -133,15 +136,22 @@
                 //console.log(HH);
 				var msg = "";
 				switch (true) { 
+                    case HH >= 20:
+                        msg = "Go to bed";
+						break;
 					case HH >= 17:
                         msg = "Good evening";
 						break;
 					case HH >= 12:
                         msg = "Good afternoon";
 						break;
-					case HH >= 6:
+					case HH >= 8:
                         msg = "Good morning";
 						break;
+                    case HH >= 6:
+                        msg = "Goly its early";
+						break;
+
 					default:
                         msg = "Welcome";
 				}
