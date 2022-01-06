@@ -248,17 +248,19 @@ dataset = {
             "text": "pluralsight",
             "icon": "fas fa-chalkboard-teacher",
             "link": "https://app.pluralsight.com"
-        }
-        ,
+        },
         {
             "cat": "learning",
             "text": "Black Hills InfoSec",
             "icon": "fas fa-chalkboard-teacher",
             "link": "https://www.blackhillsinfosec.com/"
-        }
-        
-
-        ,
+        },
+        {
+            "cat": "learning",
+            "text": "0x00sec.org",
+            "icon": "fas fa-chalkboard-teacher",
+            "link": "https://0x00sec.org/categories"
+        },
         {
             "cat": "work",
             "text": "Trend Micro",
