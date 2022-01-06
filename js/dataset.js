@@ -176,12 +176,6 @@ dataset = {
         //google
         {
             "cat": "google",
-            "text": "Messages",
-            "icon": "fas fa-sms",
-            "link": "https://messages.google.com/"
-        },
-        {
-            "cat": "google",
             "text": "Gmail",
             "icon": "fas fa-envelope",
             "link": "https://mail.google.com/mail/u/0/"
@@ -191,6 +185,12 @@ dataset = {
             "text": "Calendar",
             "icon": "far fa-calendar",
             "link": "https://calendar.google.com/calendar/r?pli=1"
+        },
+        {
+            "cat": "google",
+            "text": "Messages",
+            "icon": "fas fa-sms",
+            "link": "https://messages.google.com/"
         },
         {
             "cat": "google",
