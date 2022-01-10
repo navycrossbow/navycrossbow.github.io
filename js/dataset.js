@@ -76,8 +76,13 @@ dataset = {
             "icon": "fas fa-newspaper ",
             "link": "https://www.abc.net.au/news"
         },
-
-
+        {
+            "cat": "news",
+            "text": "theguardian.com.au",
+            "icon": "fas fa-newspaper ",
+            "link": "https://www.theguardian.com.au/"
+        },
+        
 
         ////////////////////////////////////////
         //hunting
