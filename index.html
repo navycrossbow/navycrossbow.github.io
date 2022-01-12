@@ -75,10 +75,12 @@
                     <!--<div class="fw-bold {{color}}">      {{name}}</div>-->
                     <div class="list-group transparentBorder " style="margin-bottom:10px; background-color:transparent !important;">
                         {{#records}}
-                            <a href="{{link}}" target="_blank" class="list-group-item transparentBorder bg-transparent list-group-item-action {{../color}} ">
+                            <div class="list-group-item transparentBorder bg-transparent">
+                            <a href="{{link}}" target="_blank" class=" {{../color}} ">
                                 <i class="{{icon}}"></i>
                                 {{{text}}} 
                             </a>
+                        </div>
                         {{/records}}
                     </div>
                 </div>
