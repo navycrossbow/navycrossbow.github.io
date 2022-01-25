@@ -3,6 +3,7 @@ dataset = {
     [
         ////////////////////////////////////////
         //microsoft
+        /*
         {   "cat": "microsoft", 
             "text":"Azure", 
             "icon":"fab fa-microsoft", 
@@ -28,7 +29,7 @@ dataset = {
             "icon":"fab fa-microsoft", 
             "link":"https://securitycenter.windows.com/dashboard"
         },
-
+        */
 
 
 
@@ -271,19 +272,6 @@ dataset = {
             "text": "0x00sec.org",
             "icon": "fas fa-chalkboard-teacher",
             "link": "https://0x00sec.org/categories"
-        },
-        {
-            "cat": "work",
-            "text": "Trend Micro",
-            "icon": "fas fa-viruses",
-            "link": "https://#"
-        }
-        ,
-        {
-            "cat": "work",
-            "text": "Mimecast",
-            "icon": "fas fa-mail-bulk",
-            "link": "https://#"
         }
 
 
