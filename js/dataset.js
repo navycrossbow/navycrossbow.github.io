@@ -234,6 +234,7 @@ dataset = {
             "icon": "fas fa-tasks",
             "link": "https://keep.google.com/"
         },
+        //very lazy
         {
             "cat": "google",
             "text": "Evernote",
