@@ -234,6 +234,14 @@ dataset = {
             "icon": "fas fa-tasks",
             "link": "https://keep.google.com/"
         },
+        {
+            "cat": "google",
+            "text": "Evernote",
+            "icon": "fas fa-tasks",
+            "link": "https://www.evernote.com/"
+        },
+
+        
 
         ////////////////////////////////////////
         //learning
