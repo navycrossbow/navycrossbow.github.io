@@ -83,7 +83,13 @@ dataset = {
             "icon": "fas fa-newspaper ",
             "link": "https://www.theguardian.com.au/"
         },
-        
+        {
+            "cat": "news",
+            "text": "Brisbane Marburg",
+            "icon": "fas fa-cloud-rain",
+            "link": "http://www.bom.gov.au/products/IDR503.loop.shtml"
+        },
+                
 
         ////////////////////////////////////////
         //hunting
