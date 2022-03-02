@@ -153,7 +153,12 @@ dataset = {
             "icon": "fas fa-search",
             "link": "https://uncoder.io/"
         },
-
+        {
+            "cat": "hunting",
+            "text": "OSINT Tools",
+            "icon": "fas fa-search",
+            "link": "https://start.me/p/wMdQMQ/tools"
+        },
 
 
         ////////////////////////////////////////
