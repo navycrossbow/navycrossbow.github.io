@@ -171,6 +171,13 @@ dataset = {
             "icon": "fas fa-search",
             "link": "https://github.com/"
         },              
+        {
+            "cat": "tools2",
+            "text": "Draw.io",
+            "icon": "fas fa-search",
+            "link": "https://app.diagrams.net/"
+        },        
+        
         
         
 
