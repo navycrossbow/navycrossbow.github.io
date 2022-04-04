@@ -144,13 +144,13 @@ dataset = {
         {
             "cat": "tools",
             "text": "Check short URL",
-            "icon": "fas fa-search",
+            "icon": "fas fa-tools",
             "link": "http://www.checkshorturl.com/"
         },
         {
             "cat": "tools",
             "text": "Uncoder.IO",
-            "icon": "fas fa-search",
+            "icon": "fas fa-tools",
             "link": "https://uncoder.io/"
         },
         {
@@ -162,19 +162,19 @@ dataset = {
         {
             "cat": "tools2",
             "text": "Regexr",
-            "icon": "fas fa-search",
+            "icon": "fas fa-tools",
             "link": "https://regexr.com/"
         },        
         {
             "cat": "tools2",
             "text": "Github",
-            "icon": "fas fa-search",
+            "icon": "fa-brands fa-github",
             "link": "https://github.com/"
         },              
         {
             "cat": "tools2",
             "text": "Draw.io",
-            "icon": "fas fa-search",
+            "icon": "fas fa-tools",
             "link": "https://app.diagrams.net/"
         },        
         
