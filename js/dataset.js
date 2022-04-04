@@ -92,74 +92,87 @@ dataset = {
                 
 
         ////////////////////////////////////////
-        //hunting
+        //tools
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "any.run",
             "icon": "fas fa-key",
             "link": "https://app.any.run/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "Virus Total",
             "icon": "fas fa-spider",
             "link": "https://www.virustotal.com/gui/home/upload"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "urlscan.io",
             "icon": "fas fa-search-location",
             "link": "https://urlscan.io/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "hybrid-analysis",
             "icon": "fas fa-search-location",
             "link": "https://www.hybrid-analysis.com/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "Cyber Chef",
             "icon": "fab fa-elementor",
             "link": "https://gchq.github.io/CyberChef/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "Message Analyzer",
             "icon": "fab fa-microsoft",
             "link": "https://mha.azurewebsites.net/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "IP Info",
             "icon": "fas fa-search-location",
             "link": "https://ipinfo.io/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "ThreatCloud",
             "icon": "fab fa-searchengin",
             "link": "https://www.threatcrowd.org/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "Check short URL",
             "icon": "fas fa-search",
             "link": "http://www.checkshorturl.com/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "Uncoder.IO",
             "icon": "fas fa-search",
             "link": "https://uncoder.io/"
         },
         {
-            "cat": "hunting",
+            "cat": "tools",
             "text": "OSINT Tools",
             "icon": "fas fa-search",
             "link": "https://start.me/p/wMdQMQ/tools"
         },
-
+        {
+            "cat": "tools2",
+            "text": "Regexr",
+            "icon": "fas fa-search",
+            "link": "https://regexr.com/"
+        },        
+        {
+            "cat": "tools2",
+            "text": "Github",
+            "icon": "fas fa-search",
+            "link": "https://github.com/"
+        },              
+        
+        
 
         ////////////////////////////////////////
         //socials
