@@ -168,7 +168,7 @@ dataset = {
         {
             "cat": "tools2",
             "text": "Github",
-            "icon": "fa-brands fa-github",
+            "icon": "fab fa-github",
             "link": "https://github.com/"
         },              
         {
