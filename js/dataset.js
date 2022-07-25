@@ -79,12 +79,6 @@ dataset = {
         },
         {
             "cat": "news",
-            "text": "theguardian.com.au",
-            "icon": "fas fa-newspaper ",
-            "link": "https://www.theguardian.com.au/"
-        },
-        {
-            "cat": "news",
             "text": "Brisbane Marburg",
             "icon": "fas fa-cloud-rain",
             "link": "http://www.bom.gov.au/products/IDR503.loop.shtml"
@@ -243,9 +237,9 @@ dataset = {
         },
         {
             "cat": "google",
-            "text": "Hangouts",
+            "text": "Google Chat",
             "icon": "far fa-comments",
-            "link": "https://hangouts.google.com/"
+            "link": "https://mail.google.com/chat/u/0/?hl=en"
         },
         {
             "cat": "google",
